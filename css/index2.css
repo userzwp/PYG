@@ -1,0 +1,88 @@
+.main {
+    height: 520px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.main h3 {
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 40px;
+    padding: 0 10px;
+    font-weight: normal;
+}
+
+h3 em {
+    float: right;
+}
+
+.reg_form {
+    width: 600px;
+    height: 400px;
+    margin: 40px auto 0;
+}
+
+.reg_form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.reg_form input {
+    width: 238px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../imgae/error.png) no-repeat;
+    vertical-align: middle;
+}
+
+.success_icon {
+    background: url(../imgae/success.png) no-repeat;
+}
+
+.error {
+    color: red;
+    margin-left: 10px;
+}
+
+.success {
+    color: green;
+    margin-left: 10px;
+}
+
+.reg_form li {
+    margin: 10px 0;
+}
+
+.safe {
+    padding-left: 200px;
+    color: #b2b2b2;
+}
+
+.safe em {
+    padding: 0 12px;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhon {
+    background-color: #40b83f;
+}
+
+.qian {
+    background-color: #f79100;
+}

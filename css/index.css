@@ -1,0 +1,167 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+
+.main .focus {
+    width: 720px;
+    height: 455px;
+    background-color: purple;
+    position: relative;
+}
+
+.main .newsflash {
+    width: 250px;
+    height: 455px;
+}
+
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top: 50%;
+    width: 24px;
+    height: 40px;
+    background-color: pink;
+    margin-top: -20px;
+    background: rgba(0, 0, 0, .3);
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+}
+
+.news .news-hd {
+    height: 32px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 14px;
+    line-height: 32px;
+    padding: 0 15px;
+}
+
+.news-hd a {
+    float: right;
+    font-size: 12px;
+}
+
+.news-hd a .icon {
+    width: 9px;
+}
+
+.lifeservice {
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+    overflow: hidden;
+}
+
+.bargain {
+    margin-top: 5px;
+    height: 75px;
+}
+
+.news-bd {
+    padding: 10px 0 0 15px;
+}
+
+.news-bd li {
+    height: 23px;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 63px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.lifeservice li a {
+    height: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.service_icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../imgae/icons.png) no-repeat;
+    margin: 10px auto;
+}
+
+.lifeservice li p {
+    text-align: center;
+}
+
+.huafei {
+    background-position: -17px -16px;
+}
+
+.feiji {
+    width: 26px;
+    background-position: -78px -16px;
+}
+
+.lifeservice .hot {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+    height: 15px;
+    background-color: pink;
+}
+
+.recommend {
+    height: 163px;
+    margin-top: 10px;
+}
+
+.recommend-hd {
+    width: 200px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+
+.recommend-hd img {
+    margin: 30px 0 10px 0;
+}
+
+.recommend-hd h4 {
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+}
+
+.recommend-bd {
+    width: 1000px;
+    height: 163px;
+}
+
+.recommend-bd li {
+    float: left;
+    width: 250px;
+    background-color: pink;
+    height: 145px;
+    border-right: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.recommend-bd .last {
+    border-right: none;
+}
